@@ -119,3 +119,11 @@ requirements.txt
   otherwise) — a small but real gotcha.
 - Gene activity is a proxy for expression, not RNA; it's good for broad lineages, not fine states.
 - This is the snapATAC2 path; ArchR (R) covers the same workflow and is the other common toolkit.
+
+## Related projects
+
+Part of a small single-cell / computational-biology portfolio — each a runnable, honestly-documented pipeline:
+
+- **[perturbseq-starter](https://github.com/princello/perturbseq-starter)** — Perturb-seq / CRISPR-screen analysis: guide assignment → Mixscape → pseudobulk-vs-per-cell DE → E-distance.
+- **[scatac-starter](https://github.com/princello/scatac-starter)** — single-cell ATAC: TSS-enrichment QC → tile/spectral clustering → gene activity → MACS3 peaks + TF-motif enrichment. *(this repo)*
+- **[scrna-workflow](https://github.com/princello/scrna-workflow)** — the same multi-sample scRNA pipeline as a reproducible DAG in both Snakemake and Nextflow.
