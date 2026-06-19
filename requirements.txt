@@ -1,0 +1,10 @@
+# Use Python 3.11 (the snapATAC2/scanpy stack has the best wheel coverage there).
+snapatac2         # single-cell ATAC toolkit: import, QC/TSSe, tile matrix, spectral, peaks, motifs
+scanpy            # normalization + marker-gene scoring for gene activity
+anndata
+macs3             # peak calling (snapatac2.tl.macs3 backend)
+leidenalg         # Leiden clustering
+igraph
+numpy
+pandas
+scipy
